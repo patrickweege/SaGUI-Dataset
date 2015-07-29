@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>jtuamotu</groupId>
-		<artifactId>jtuamotu-parent</artifactId>
+		<groupId>sagui.dataset</groupId>
+		<artifactId>sagui-dataset-parent</artifactId>
 		<version>1.0-SNAPSHOT</version>
 	</parent>
 
-	<artifactId>jtuamotu-dataset</artifactId>
+	<artifactId>sagui-dataset</artifactId>
 	<name>JTuamoto - Dataset</name>
 
 	<properties>
