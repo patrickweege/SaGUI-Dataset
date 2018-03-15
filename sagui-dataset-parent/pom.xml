@@ -8,8 +8,10 @@
 	<name>JTuamotu Parent</name>
 	<description>JTuamotu Parent</description>
 
-	<!--  Linha Adicionada no eclipse -->
+	<!-- linha 1 -->
+	<!-- Linha Adicionada no eclipse -->
 	<!-- Linha 2 Adicionada em Develop -->
+	
 	<properties>
 		<slf4jVersion>1.7.6</slf4jVersion>
 	</properties>
