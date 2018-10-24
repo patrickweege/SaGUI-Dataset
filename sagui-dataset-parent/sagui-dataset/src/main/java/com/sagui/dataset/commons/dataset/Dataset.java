@@ -341,8 +341,12 @@ public class Dataset<T> implements IDataset<T> {
         @Override
         public <V> V getValue(T bean) {
             if (Dataset.this.hasRow(bean)) {
+            	V value = null;
                 DynaBean dyBean = getDynaDataForRow(bean, false);
-                return super.getDelegateValue(dyBean);
+                if(dyBean != null) {
+                	value = super.getDelegateValue(dyBean);	
+                }
+                return value;
             }
             throw new ElementNotFoundException();
         }
