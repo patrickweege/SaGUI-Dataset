@@ -15,7 +15,7 @@
 	</properties>
 
 	<modules>
-		<module>sagui-dataset</module>
+		<module>sagui-dataset-jar</module>
 	</modules>
 
 
